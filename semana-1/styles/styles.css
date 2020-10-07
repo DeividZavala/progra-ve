@@ -1,7 +1,6 @@
 /* id */
 #title {
-  color: white;
-  text-shadow: 1px 0 0 black;
+  color: pink;
 }
 
 /* clases */
@@ -10,8 +9,13 @@
 }
 .profile-img {
   border-radius: 50%;
-  width: 500px;
-  height: 500px;
+  width: 100px;
+  height: 100px;
+}
+.mitad {
+  width: 50%;
+  background-color: red;
+  color: black;
 }
 
 /* Elemento */
@@ -22,4 +26,18 @@ p {
 
 h2 {
   color: purple;
+}
+
+header {
+  background-color: #f0453e;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+ul > li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
