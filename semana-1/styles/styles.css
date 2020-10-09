@@ -62,9 +62,28 @@ ul > li:hover {
 
 .square2 {
   background-color: red;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: black;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.square2:hover > .overlay {
+  opacity: 1;
+  visibility: visible;
+  width: 100px;
+  height: 100px;
 }
 
 @keyframes upAndDown {
